@@ -271,14 +271,17 @@ section {
   border-radius: 2rem;
 }
 
+.about-containers,
 .about-details-container {
   display: flex;
+}
+
+.about-details-container {
   flex-direction: column;
   justify-content: center;
 }
 
 .about-containers {
-  display: flex;
   gap: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -408,17 +411,16 @@ section {
 
 /* Contact */
 #contact {
-  position:relative;
   display: flex;
   flex-direction: column;
   height:70vh;
-  justify-content:center;
+  justify-content:center;a
 }
 
 .contact-info-upper-container  {
   display: flex;
   padding: 0.5rem;
-  background: rgb(250, 250, 250);
+  background:white;
   text-align: center;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color:rgb(163,163,163);
