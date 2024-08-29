@@ -1,0 +1,12 @@
+/* This media query apply to screen size */
+/* When screen size width is smaller than 1200px */
+/* The display rule applies */
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
