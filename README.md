@@ -1,4 +1,4 @@
-# portfolio
+# My Portfolio
 ## This is a repository for my portfolio.
 Contact
 - Location: Frankurt am Main
